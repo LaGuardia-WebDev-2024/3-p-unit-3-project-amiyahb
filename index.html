@@ -3,10 +3,10 @@ Requirements
 [ yes ] Two External Links
 [ yes ] Table (minimum 2 Columns by 3 Rows)
 [ yes ] Three CSS Rules
-[  ] Three Images
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include :hover Effect
+[ yes ] Feature 1 - Include :hover Effect
 [ no ] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
@@ -22,6 +22,7 @@ Select ONE Additional Feature to Add
   <style>
     h1 {
       color: rgb(177, 225, 240);
+      text-align: center; background-color: cornflowerblue;
     }
 
     h2 {
@@ -39,6 +40,19 @@ Select ONE Additional Feature to Add
     .serves {
       background-color: rgb(72, 171, 238);
     }
+
+    a:hover {
+      background-color: aliceblue;
+    }
+
+    table:hover {
+      background-color: burlywood;
+    }
+    
+    table, th, td {
+      text-align: center; 
+            border: 1px solid;
+    }
   </style>
 </head>
 
@@ -47,14 +61,16 @@ Select ONE Additional Feature to Add
  <h1>Amiyah's Recipe Book</h1>
 
   <h2>Contents:</h2>
-
+  <p>Jump to sections:</p>
   <ol>
-    <li> Jump to sections: <a href="#Recipe-1">Recipe #1 - Jerk Chicken with Rice and Peas</a></li>
-    <li> Jump to sections: <a href="#Recipe-2">Recipe #2 - Tostones</a></li>
+    <li><a href="#Recipe-1">Recipe #1 - Jerk Chicken with Rice and Peas</a></li>
+    <li>  <a href="#Recipe-2">Recipe #2 - Tostones</a></li>
+    <li><a href="#Recipe-3">Recipe #3 - Pasta</a></li>
   </ol>
 
   <h2 id="Recipe-1">Recipe #1</h2>
 <img src="https://i.ytimg.com/vi/Uj9nSpT03Hs/maxresdefault.jpg" alt="Picture of Jerk Chicken with Rice and Peas" width="300">
+     
   <ul>
     <li class="time">Time: 1 hour and 6 minutes</li>
     <li class="serves">Serves: 6 people</li>
@@ -119,7 +135,7 @@ Ground allspice<br>
   <p><strong>Step 1:</strong> Combine the spring onions, ginger, garlic, onion, scotch bonnet chillies, dried thyme, lime juice, soy sauce, vegetable oil, brown sugar and ground allspice in a food processor along with 1 tsp salt, and blend to a purée.</p>
  <p>- don’t be tempted to add water, as you want a thick paste.</p>
 
-Taste the jerk mixture for seasoning – it should taste pretty salty, but not unpleasantly salty. Add more chillies if it’s not spicy enough for you. If it tastes too salty and sour, try adding in a bit more brown sugar until the mixture tastes well-balanced.</p>
+<p>Taste the jerk mixture for seasoning – it should taste pretty salty, but not unpleasantly salty. Add more chillies if it’s not spicy enough for you. If it tastes too salty and sour, try adding in a bit more brown sugar until the mixture tastes well-balanced.</p>
 
 <p><strong>Step 2:</strong> Make a few light cuts in the chicken breasts and pour the marinade over the meat, rubbing it into all the crevices. Cover and leave to marinate overnight in the fridge.</p>
 
@@ -184,8 +200,8 @@ Taste the jerk mixture for seasoning – it should taste pretty salty, but not u
 
       <p><em>Source: <a href="https://loisa.com/blogs/comida-real/how-to-make-tostones#:~:text=Ingredients,tostonera%20to%20flatten%20the%20plantain.">Website for Tostones Recipe!</a></em></p>
 
-      <h2>Recipe #3</h2>
-
+      <h2 id="Recipe-3">Recipe #3</h2>
+      <img src="https://www.allrecipes.com/thmb/oWrKte1auLsqVEcnxa8z1vCZdDU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/67700_RichPastaforthePoorKitchen_ddmfs_4x3_2284-220302ec8328442096df370dede357d7.jpg" alt="Picture of Pasta" width="300">
       <ul>
           <li class="time">Time: 25 minutes</li>
           <li class="serves">Serves: 4 people</li>
@@ -225,6 +241,8 @@ Taste the jerk mixture for seasoning – it should taste pretty salty, but not u
     <p><strong>Step 2:</strong> Meanwhile, heat a skillet over medium-low heat. Melt butter with garlic very slowly to avoid burning the garlic. Season with parsley, salt, black pepper, and cayenne.</p>
     <p><strong>Step 3:</strong> Add cooked pasta to the skillet and toss until well coated with butter. Increase the heat to medium and cook until pasta is heated through and has absorbed some of the butter. Adjust seasonings if necessary.</p>
     <p><strong>Step 4:</strong> Serve with grated Parmesan cheese.</p>
+
+    <p><em>Source<a href="https://www.allrecipes.com/recipe/67700/rich-pasta-for-the-poor-kitchen/"> Website for Pasta Recipe!</a></em></p>
     
 </body>
 
